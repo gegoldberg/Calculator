@@ -22,9 +22,11 @@ public class Calculator {
 		else if (choice.equalsIgnoreCase("multiply")) {
 			System.out.println((operand1 * operand2));
 		}
+		else if ((operand2 == 0) && (choice.equalsIgnoreCase("divide"))) {
+			System.out.println("Error: Divide by Zero");
+		}
 		else if (choice.equalsIgnoreCase("divide")) {
 			System.out.println((operand1 / operand2));
 		}
 	}
-
 }
