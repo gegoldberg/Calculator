@@ -6,12 +6,12 @@ public class Calculator {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter in a number");
-		int operand1 = sc.nextInt();
+		double operand1 = sc.nextDouble();
 		System.out.println("Enter in a number");
-		int operand2 = sc.nextInt();
+		double operand2 = sc.nextDouble();
 		
 		Scanner sr = new Scanner(System.in);
-		System.out.println("Would you like to add or subtract?");
+		System.out.println("Would you like to add, subtract, multiply, or divide?");
 		String choice = sr.nextLine();
 		if (choice.equalsIgnoreCase("add")) {
 			System.out.println((operand1 + operand2));
