@@ -19,7 +19,12 @@ public class Calculator {
 		else if (choice.equalsIgnoreCase("subtract")) {
 			System.out.println((operand1 + operand2));
 		}
-	
+		else if (choice.equalsIgnoreCase("multiply")) {
+			System.out.println((operand1 * operand2));
+		}
+		else if (choice.equalsIgnoreCase("divide")) {
+			System.out.println((operand1 / operand2));
+		}
 	}
 
 }
