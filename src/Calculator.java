@@ -5,9 +5,9 @@ public class Calculator {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter in a number");
+		System.out.println("Enter in a number please");
 		double operand1 = sc.nextDouble();
-		System.out.println("Enter in a number");
+		System.out.println("Enter in a number please");
 		double operand2 = sc.nextDouble();
 		
 		Scanner sr = new Scanner(System.in);
